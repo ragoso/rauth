@@ -1,0 +1,13 @@
+[package]
+name = "auth"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tower = { version = "0.4", features = ["full"] }
+http = "0.2.9"
+tokio = { version = "1.29.1", features = ["full"] }
+hyper = { version = "0.14", features = ["full"] }
+tower-test = "0.4.0"
